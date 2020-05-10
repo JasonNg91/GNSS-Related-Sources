@@ -95,7 +95,9 @@ A collection of awesome GNSS/RNSS related sources, tools, data, MOOC's course, e
 
 ## Laika
 - Simple Python GNSS processing library (https://github.com/commaai/laika)
--Laika is an open-source GNSS processing library. Laika is similar to projects like RTKlib and GPSTK, but in Python and with a strong focus on readibility, usability and easy integration with other optimizers. Laika can process raw GNSS observations with data gathered online from various analysis groups to produce data ready for position/velocity estimation. Laika is designed to produce accurate results whilst still being readable and easy to use. Laika is the perfect tool to develop accurate GNSS-only or GNSS-fusion localisation algorithms.
+- Laika is an open-source GNSS processing library. Laika is similar to projects like RTKlib and GPSTK, but in Python and with a strong focus on readibility, usability and easy integration with other optimizers. 
+- Laika can process raw GNSS observations with data gathered online from various analysis groups to produce data ready for position/velocity estimation. Laika is designed to produce accurate results whilst still being readable and easy to use. 
+- Laika is the perfect tool to develop accurate GNSS-only or GNSS-fusion localisation algorithms.
 
 ## GPS Measurement Tools
 - from Google (https://github.com/google/gps-measurement-tools)
