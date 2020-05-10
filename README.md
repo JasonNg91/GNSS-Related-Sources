@@ -139,3 +139,6 @@ A collection of awesome GNSS/RNSS related sources, tools, data, MOOC's course, e
 - Open-source GNSS + inertial navigation, sensor fusion simulator. Motion trajectory generator, sensor models, and navigation
 - GNSS-INS-SIM is an GNSS/INS simulation project, which generates reference trajectories, IMU sensor output, GPS output, odometer output and magnetometer output. Users choose/set up the sensor model, define the waypoints and provide algorithms, and gnss-ins-sim can generate required data for the algorithms, run the algorithms, plot simulation results, save simulations results, and generate a brief summary.
 
+## PLUTO-GPS-SIM
+- https://github.com/Mictronics/pluto-gps-sim
+- PLUTO-GPS-SIM generates a GPS baseband signal IQ data stream, which is then transmitted by the software-defined radio (SDR) platform ADALM-Pluto.
