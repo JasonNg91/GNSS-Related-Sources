@@ -134,5 +134,8 @@ A collection of awesome GNSS/RNSS related sources, tools, data, MOOC's course, e
 - https://github.com/osqzss/gps-sdr-sim
 - GPS-SDR-SIM for Microsoft Windows(https://github.com/camtas/gps-sdr-sim-Windows)
 
-
+## GNSS-INS-SIM
+- https://github.com/swift-nav/gnss-ins-sim
+- Open-source GNSS + inertial navigation, sensor fusion simulator. Motion trajectory generator, sensor models, and navigation
+- GNSS-INS-SIM is an GNSS/INS simulation project, which generates reference trajectories, IMU sensor output, GPS output, odometer output and magnetometer output. Users choose/set up the sensor model, define the waypoints and provide algorithms, and gnss-ins-sim can generate required data for the algorithms, run the algorithms, plot simulation results, save simulations results, and generate a brief summary.
 
