@@ -163,3 +163,8 @@ A collection of awesome GNSS/RNSS related sources, tools, data, MOOC's course, e
 - nlosExclusion- GNSS NLOS exclusion package (under development)
 - rtklibros- rtklib in ros package rtklib
 - Mapping- LiDAR mapping and its integration with GNSS (in local frame) (SLAM)
+
+## SIMD Intrinsic Correlator Library
+- GNSS Intrinsics for Software Correlators
+- https://github.com/dmiralles2009/gnss-intrinsics
+
