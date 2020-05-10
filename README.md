@@ -28,7 +28,11 @@ A collection of awesome GNSS/RNSS related sources, tools, data, MOOC's course, e
 ### Desktop Tools
 - [RTKLIB](https://github.com/tomojitakasu/RTKLIB) - An open source program for standard and precise positioning.
 - [GNSS-SDR](https://github.com/gnss-sdr/gnss-sdr) - An open source GNSS software defined receiver.
+- [GNSS-SDRLIB](https://github.com/taroz/GNSS-SDRLIB) - An Open Source GNSS Software Defined Radio Library
 - [GPSTk](https://github.com/SGL-UT/GPSTk) - A library and suite of applications to the satellite navigation.
+- [GNSS-DSP-tools](https://github.com/pmonta/GNSS-DSP-tools) - Python-GNSS code generators, acquisition, and tracking
+- [GNSS-matlab](https://github.com/danipascual/GNSS-matlab) - Matlab codes to generate GNSS PRNs, secondary codes, dataless signals and spectra. Includes real data captures and a theory summary. GPS (L1CA, L2C, L5), Gaileo (E1OS, E5), BeiDou-2 (B1I)
+
 
 ### Mobile Tools
 - [GPSLogger](https://github.com/mendhak/gpslogger) - A Lightweight GPS Logging Application For Android.
@@ -70,3 +74,60 @@ A collection of awesome GNSS/RNSS related sources, tools, data, MOOC's course, e
 ## BeiDou 
 :satellite: :cn:
 - [CSNO-TARC](http://www.csno-tarc.cn/) - BeiDou Constellation status
+
+-----------------------------------------------------------------------------
+## GNSS-Metadata-Standard
+- GNSS Sofware Defined Receiver Metadata Standard http://sdr.ion.org/
+- https://github.com/IonMetadataWorkingGroup/GNSS-Metadata-Standard
+
+## GMT
+- 全称Generic Mapping Tools，中文一般译为“通用制图工具”，是地球科学最广泛使用的制图软件之一，具有强大的绘图功能和数据处理功能。如今 GMT 也支持通过 Python 调用了。
+- A Python interface for the Generic Mapping Tools (https://github.com/GenericMappingTools/pygmt)
+
+## GNSSpy
+- Python Toolkit for GNSS Data (https://github.com/GNSSpy-Project/gnsspy)
+- GNSSpy 是一个能处理多星座、2和3 不同版本 RINEX 观测值文件的免费开源的库。
+- 提供了基于精密星历、钟差和最小二乘算法的 SPP 和 PPP 功能；
+- 支持文件编辑（切割、降采样、合并）；
+- 支持质量检核（统计多路径、电离层延迟、SNR）；
+- GNSS数据可视化（天空图、方位-高度角、时间-高度角、星下点轨迹、观测弧段可视化）
+- ......
+
+## Laika
+- Simple Python GNSS processing library (https://github.com/commaai/laika)
+-Laika is an open-source GNSS processing library. Laika is similar to projects like RTKlib and GPSTK, but in Python and with a strong focus on readibility, usability and easy integration with other optimizers. Laika can process raw GNSS observations with data gathered online from various analysis groups to produce data ready for position/velocity estimation. Laika is designed to produce accurate results whilst still being readable and easy to use. Laika is the perfect tool to develop accurate GNSS-only or GNSS-fusion localisation algorithms.
+
+## GPS Measurement Tools
+- from Google (https://github.com/google/gps-measurement-tools)
+- The GNSS Measurement Tools code is provided for you to:
+- read data from GnssLogger App,
+- compute and visualize pseudoranges,
+- compute weighted least squares position and velocity,
+- view and analyze carrier phase (if it is present in the log file).
+
+## NaveGo
+- an open-source MATLAB/GNU Octave toolbox for processing integrated navigation systems and performing inertial sensors analysis.
+- https://github.com/rodralez/NaveGo
+- Main features of NaveGo are:
+- Processing of an inertial navigation system (INS).
+- Processing of a loosely-coupled integrated navigation system (INS/GNSS).
+- Simulation of inertial sensors and GNSS.
+- Zero Velocity Update (ZUPT) detection algorithm.
+- Allan variance technique to characterize inertial sensors' both deterministic and stochastic errors.
+
+## goGPS_MATLAB
+- goGPS MATLAB is an advanced GNSS observation processing software. http://www.gogps-project.org/
+- https://github.com/goGPS-Project/goGPS_MATLAB
+- goGPS is a software package designed to perform GPS positioning, either in post-processing or real-time. It is developed in MATLAB and it is aimed at providing a tool useful for studying GPS positioning, implementing and testing new algorithms and interacting in general with GPS-related aspects.
+
+## Nequick-G
+- https://github.com/Fraunhofer-IIS/NequickG
+- This is a python implementation of the Nequick-G ionospheric correction model described in European Space Agency's Galileo Ionospheric Model. Ionospheric disturbance flags are not implemented
+
+## gps-sdr-sim 
+- GPS-SDR-SIM generates GPS baseband signal data streams, which can be converted to RF using software-defined radio (SDR) platforms, such as ADALM-Pluto, bladeRF, HackRF, and USRP.
+- https://github.com/osqzss/gps-sdr-sim
+- GPS-SDR-SIM for Microsoft Windows(https://github.com/camtas/gps-sdr-sim-Windows)
+
+
+
