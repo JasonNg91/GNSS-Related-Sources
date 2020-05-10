@@ -81,17 +81,20 @@ A collection of awesome GNSS/RNSS related sources, tools, data, MOOC's course, e
 - https://github.com/IonMetadataWorkingGroup/GNSS-Metadata-Standard
 
 ## GMT
-- 全称Generic Mapping Tools，中文一般译为“通用制图工具”，是地球科学最广泛使用的制图软件之一，具有强大的绘图功能和数据处理功能。如今 GMT 也支持通过 Python 调用了。
 - A Python interface for the Generic Mapping Tools (https://github.com/GenericMappingTools/pygmt)
+- Make GMT more accessible to new users.
+- Build a Pythonic API for GMT.
+- Interface with the GMT C API directly using ctypes (no system calls).
+- Support for rich display in the Jupyter notebook.
+- Integration with the Scipy stack: numpy.ndarray or pandas.DataFrame for data tables and xarray.DataArray for grids.
 
 ## GNSSpy
 - Python Toolkit for GNSS Data (https://github.com/GNSSpy-Project/gnsspy)
-- GNSSpy 是一个能处理多星座、2和3 不同版本 RINEX 观测值文件的免费开源的库。
-- 提供了基于精密星历、钟差和最小二乘算法的 SPP 和 PPP 功能；
-- 支持文件编辑（切割、降采样、合并）；
-- 支持质量检核（统计多路径、电离层延迟、SNR）；
-- GNSS数据可视化（天空图、方位-高度角、时间-高度角、星下点轨迹、观测弧段可视化）
-- ......
+- GNSSpy is a free and open source library for handling multi GNSS and different versions (2.X and 3.X) of RINEX files. 
+- It provides Single Point Positioning (SPP) solutions by least squares adjustment using pseudo-range observations using precise ephemeris and clock files. 
+- GNSSpy can be used for editing (slicing, decimating, merging) and quality checking (multipath,ionospheric delay, SNR) for RINEX files. Ionospheric delay can be calculated from GNSS atmospheric models of IGS for single frequency RINEX data or removed using dual frequency RINEX data. 
+- It can be used for visualizing GNSS data such as skyplot, azimuth-elevation,time-elevation, ground track and band plots. 
+- Additionally, this library can be used for basic geodetic computations such as geodetic positions on reference ellipsoid and projection computations.
 
 ## Laika
 - Simple Python GNSS processing library (https://github.com/commaai/laika)
